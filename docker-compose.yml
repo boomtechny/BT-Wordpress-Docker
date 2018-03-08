@@ -18,6 +18,8 @@ services:
     restart: always
     volumes: 
       - ./wordpress:/var/www/html
+      - ./wordpress/wp-content/uploads:/var/www/html/wp-content/uploads
+      - ./wordpress/wp-content/themes/simple:/var/www/html/wp-content/themes/simple
     env_file:
       - "./.env"
     ports:
