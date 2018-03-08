@@ -1,0 +1,16 @@
+*.env
+
+db_data/*
+
+wordpress/*
+
+
+wp-content/*
+!wp-content/mu-plugins/
+!wp-content/plugins/
+!wp-content/themes/
+
+wordpress/wp-content/plugins/akismet/
+wordpress/wp-contnet/plugins/hello.php
+
+
