@@ -1,16 +1,35 @@
 *.env
 
 db_data/*
+wp-config.php
 
-wordpress/*
+*/wp-admin/*
+*/wp-includes/*
 
-
-wp-content/*
-!wp-content/mu-plugins/
-!wp-content/plugins/
-!wp-content/themes/
+*/wp-content/*
+!*/wp-content/mu-plugins/
+!*/wp-content/plugins/
+!*/wp-content/themes/
 
 wordpress/wp-content/plugins/akismet/
-wordpress/wp-contnet/plugins/hello.php
+wordpress/wp-content/plugins/hello.php
 
 
+*.htaccess
+xmlrpc.php
+wp-trackback.php
+wp-signup.php
+wp-settings.php
+wp-mail.php
+wp-login.php
+wp-load.php
+wp-links-opm.php
+wp-cron.php
+wp-comments-post.php
+wp-blog-header.php
+wp-activate.php
+index.php
+license.txt
+readme.html
+wp-config-sample.php
+wp-links-opml.php
