@@ -11,6 +11,7 @@ wp-config.php
 !*/wp-content/plugins/
 !*/wp-content/themes/
 !*/wp-content/uploads/
+!*/mockedutheme/index.php
 
 wordpress/wp-content/plugins/akismet/
 wordpress/wp-content/plugins/hello.php
@@ -29,8 +30,13 @@ wp-cron.php
 wp-comments-post.php
 wp-blog-header.php
 wp-activate.php
-index.php
+
 license.txt
 readme.html
 wp-config-sample.php
 wp-links-opml.php
+wordpress/index.php
+wordpress/wp-content/plugins/index.php
+wordpress/wp-content/themes/twentyfifteen/index.php
+wordpress/wp-content/themes/twentyseventeen/index.php
+wordpress/wp-content/themes/twentysixteen/index.php

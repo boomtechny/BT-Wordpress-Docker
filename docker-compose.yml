@@ -19,7 +19,11 @@ services:
     volumes: 
       - ./wordpress:/var/www/html
       - ./wordpress/wp-content/uploads:/var/www/html/wp-content/uploads
+      - ./wordpress/wp-content/uploads:/var/www/html/wp-content/mu-plugins
+      - ./wordpress/wp-content/uploads:/var/www/html/wp-content/plugins/advanced-custom-fields
       - ./wordpress/wp-content/themes/simple:/var/www/html/wp-content/themes/simple
+      - ./wordpress/wp-content/themes/simple:/var/www/html/wp-content/themes/simpleII
+      - ./wordpress/wp-content/themes/simple:/var/www/html/wp-content/themes/mockedutheme
     env_file:
       - "./.env"
     ports:
